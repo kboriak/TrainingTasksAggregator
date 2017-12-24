@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.algorithms;
+package ua.kharkiv.kboriak.hackerrank.algorithms.strings;
 
 import java.util.Scanner;
 

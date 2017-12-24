@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.algorithms;
+package ua.kharkiv.kboriak.hackerrank.algorithms.graphtheory;
 
 import java.util.*;
 import java.util.stream.Collectors;

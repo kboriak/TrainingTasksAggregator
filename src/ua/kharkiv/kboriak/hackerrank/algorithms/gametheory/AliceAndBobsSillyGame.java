@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.algorithms;
+package ua.kharkiv.kboriak.hackerrank.algorithms.gametheory;
 
 import java.util.ArrayList;
 import java.util.List;

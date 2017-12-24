@@ -1,9 +1,11 @@
-package ua.kharkov.kboriak.hackerrank.contests.worldcodesprint12;
+package ua.kharkiv.kboriak.hackerrank.contests.worldcodesprint12;
+
+import ua.kharkiv.kboriak.utils.annotations.Unsolved;
 
 import java.util.Scanner;
 
 // https://www.hackerrank.com/contests/world-codesprint-12/challenges/factorial-array
-// NOT SOLVED
+@Unsolved
 public class FactorialArray {
 
     private static final int INCREMENT = 1;

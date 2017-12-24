@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.contests.worldcodesprint12;
+package ua.kharkiv.kboriak.hackerrank.contests.worldcodesprint12;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,21 +7,9 @@ import java.util.Scanner;
 // https://www.hackerrank.com/contests/world-codesprint-12/challenges/red-knights-shortest-path
 public class RedKnightsShortestPath {
 
-    private enum Directions {
-        UL("UL"), UR("UR"), R("R"), LR("LR"), LL("LL"), L("L");
-        private String directionName;
+    private enum Directions {UL, UR, R, LR, LL, L}
 
-        Directions(String directionName) {
-            this.directionName = directionName;
-        }
-
-        @Override
-        public String toString() {
-            return directionName;
-        }
-    }
-
-    static void printShortestPath(int n, int startRow, int startColumn, int endRow, int endColumn) {
+    private static void printShortestPath(int n, int startRow, int startColumn, int endRow, int endColumn) {
         int dRow = Math.abs(startRow - endRow);
         int dColumn = Math.abs(startColumn - endColumn);
         if (dRow % 2 != 0 || dColumn % 2 != (dRow % 4) / 2) {

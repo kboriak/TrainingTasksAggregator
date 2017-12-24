@@ -1,8 +1,11 @@
-package ua.kharkov.kboriak.hackerrank.contests.projecteuler.project197;
+package ua.kharkiv.kboriak.hackerrank.contests.projecteuler.project197;
+
+import ua.kharkiv.kboriak.utils.annotations.Unsolved;
 
 import java.util.Scanner;
 
 // https://www.hackerrank.com/contests/projecteuler/challenges/euler197/problem
+@Unsolved
 public class InvestigatingRecursiveSequence {
 
     public static void main(String[] args) {

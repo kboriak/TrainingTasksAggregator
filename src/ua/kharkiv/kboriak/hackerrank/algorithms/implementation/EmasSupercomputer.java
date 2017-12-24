@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.algorithms;
+package ua.kharkiv.kboriak.hackerrank.algorithms.implementation;
 
 import java.util.*;
 
@@ -16,7 +16,6 @@ public class EmasSupercomputer {
             this.x = x;
             this.y = y;
         }
-
 
         @Override
         public boolean equals(Object o) {

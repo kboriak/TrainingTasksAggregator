@@ -1,4 +1,4 @@
-package ua.kharkov.kboriak.hackerrank.contests.worldcodesprint12;
+package ua.kharkiv.kboriak.hackerrank.contests.worldcodesprint12;
 
 import java.util.HashMap;
 import java.util.Map;
